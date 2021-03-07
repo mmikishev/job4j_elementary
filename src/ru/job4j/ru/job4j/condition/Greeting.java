@@ -1,4 +1,4 @@
-package ru.job4j.condition;
+package ru.job4j.ru.job4j.condition;
 
 public class Greeting {
     public static void main(String[] args) {
@@ -8,7 +8,5 @@ public class Greeting {
         int year = 2021;
         String id = idea + year;
         System.out.println(id);
-
-
     }
 }
