@@ -12,4 +12,20 @@ public class SqAreaTest {
         double out = ru.job4j.condition.SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
+    @Test
+    public void square1() {
+        int expected = 0;
+        int p = 3;
+        int k = 1;
+        double out = ru.job4j.condition.SqArea.square(p, k);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+    @Test
+    public void square2() {
+        int expected = 4;
+        int p = 12;
+        int k = 4;
+        double out = ru.job4j.condition.SqArea.square(p, k);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
